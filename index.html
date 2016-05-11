@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Baller Coaster</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/00_reset.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/01_master.css" media="screen" title="no title" charset="utf-8">
+    <script src="./js/jquery-2.2.3.min.js"></script>
+    <script src="./js/bundle.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Baller Coaster</h1>
+      <div class="content">
+        <canvas id="main-canvas"></canvas>
+        <div class="menu">
+          <button type="button" id="play-btn" class="menu-btn">Play</button>
+          <button type="button" id="place-ball-btn" class="menu-btn" data-toggle="collapse" data-target="#place-ball-content" aria-expanded="false" aria-controls="place-ball-content">Place Balls</button>
+          <div id="place-ball-content" class="collapse btn-content">Click the canvas to place balls!</div>
+          <button type="button" id="draw-tracks-btn" class="menu-btn" data-toggle="collapse" data-target="#draw-tracks-content" aria-expanded="false" aria-controls="draw-tracks-content">Draw Tracks</button>
+          <div id="draw-tracks-content" class="collapse btn-content">Click and drag to draw tracks!</div>
+          <button type="button" id="ball-generator-btn" class="menu-btn" data-toggle="collapse" data-target="#ball-generator-menu" aria-expanded="false" aria-controls="ball-generator-menu">Construct Ball Generators</button>
+          <div id="ball-generator-menu" class="collapse btn-content">
+            <div>
+              <div class="title"> Angle (degrees): </div>
+              <input type="number" id="ball-generator-angle" value="60"/>
+
+              <div class="title"> Ball Velocity (pixels/s): </div>
+              <input type="number" id="ball-generator-velocity" value="5"/>
+
+              <div class="title"> Frequency (balls/min): </div>
+              <input type="number" id="ball-generator-frequency" value="1" />
+            </div>
+          </div>
+          <button type="button" id="clear-btn" class="menu-btn">Clear</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
