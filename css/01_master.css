@@ -11,7 +11,6 @@ body {
   background: -webkit-linear-gradient(to left, #2c3e50 , #3498db); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #2c3e50 , #3498db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: black;
-
 }
 
 header.color-background {
@@ -69,13 +68,15 @@ a:hover {
 }
 
 section {
-  padding: 20px;
+
 }
 
-section h2 {
+section h2.color-background {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+  color: white;
+  padding: 20px;
 }
 
 .about-content {
@@ -110,4 +111,22 @@ section h2 {
 .about-text a {
   text-decoration: underline;
   color: blue;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio > div {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.portfolio > div > h3 {
+  font-size: 18px;
+  font-weight: bold;
 }
