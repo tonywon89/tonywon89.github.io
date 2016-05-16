@@ -121,44 +121,51 @@ section h2.color-background {
 
 .portfolio {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.portfolio > div {
+.portfolio > .portfolio-item {
   padding: 20px;
   margin: 20px;
-  width: 300px;
+  width: 80%;
   border: 1px solid black;
   display: flex;
-  flex-direction: column;
   align-items: center;
   transition: 0.4s all;
   position: relative;
 }
 
-.portfolio > div > h3 {
+.portfolio-item h3 {
   font-size: 20px;
   font-weight: bold;
 }
 
-.portfolio > div > h5 {
+.portfolio-item h5 {
   padding: 7px;
   font-size: 15px;
   color: gray;
   border-bottom: 1px solid black;
 }
 
-.portfolio > div > footer {
+.portfolio-item footer {
   padding-top: 10px;
 }
 
-.portfolio > div > ul {
+.portfolio-item ul {
   padding: 12px;
 }
 
-.portfolio > div > ul > li{
+.portfolio-item ul > li{
   padding: 5px;
-  font-size: 13px;
+  font-size: 17px;
+}
+
+.portfolio-item .screenshot {
+  margin: 20px;
+  padding: 10px;
+  background-color: gray;
+  width: 20%;
 }
 
 .portfolio > div:hover {
