@@ -3,75 +3,41 @@ html {
 }
 body {
   min-height: 100%;
-  background-color: gray;
 }
 
-.main {
-  width: 100vw;
+header {
+  background: teal;
+  color: white;
+  padding: 20px;
 }
 
-.main h1 {
-  /*position: relative;*/
+h1 {
   text-align: center;
   font-size: 45px;
   font-weight: bold;
+  padding: 20px;
 }
 
-.main .content {
-  display: flex;
-  justify-content: center;
+.contact-info {
+  text-align: center;
 }
 
-.main canvas {
-  margin: 10px;
-  border: 1px solid black;
-  background-color: white;
-}
-
-.main .menu {
-  margin: 10px;
-  height: 85vh;
-  width: 30%;
-  top: 10%;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #BFBEBE;
-}
-
-.menu-btn {
-  font-size: 20px;
+.contact-info h3 {
   padding: 5px;
-  border: 1px solid black;
-  width: 75%;
-  margin: 10px;
+  font-size: 20px;
+}
+
+.contact-info > h3 > span {
+  color: black;
+  font-weight: bold;
+}
+
+section {
+  border-bottom: 1px solid green;
+  padding: 20px;
+}
+
+section h2 {
   text-align: center;
-  border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.menu-btn:disabled {
-  opacity: 0.5;
-}
-
-.menu-btn[disabled]:hover {
-  background-color: Transparent;
-}
-.menu-btn:hover {
-  background-color: white;
-}
-
-#ball-generator-menu > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-input[type="number"] {
-  background-color: white;
-  text-align: center;
-  padding: 3px;
-  width: 30%;
-  margin: 3px;
+  font-size: 30px;
 }
