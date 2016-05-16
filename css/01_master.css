@@ -138,8 +138,18 @@ section h2.color-background {
   padding: 7px;
   font-size: 15px;
   color: gray;
+  border-bottom: 1px solid black;
 }
 
 .portfolio > div > footer {
   margin-top: 30px;
+}
+
+.portfolio > div > ul {
+  padding: 12px;
+}
+
+.portfolio > div > ul > li{
+  padding: 5px;
+  font-size: 13px;
 }
