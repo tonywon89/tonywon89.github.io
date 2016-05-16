@@ -128,6 +128,7 @@ section h2.color-background {
   flex-direction: column;
   align-items: center;
   transition: 0.4s all;
+  position: relative;
 }
 
 .portfolio > div > h3 {
@@ -143,7 +144,7 @@ section h2.color-background {
 }
 
 .portfolio > div > footer {
-  margin-top: 30px;
+  padding-top: 10px;
 }
 
 .portfolio > div > ul {
@@ -157,4 +158,30 @@ section h2.color-background {
 
 .portfolio > div:hover {
   transform: scale(1.05, 1.05);
+}
+
+.skills > ul {
+  display: flex;
+  justify-content: center;
+}
+
+.skills > ul li {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.contact-info-footer {
+  background-color: #D6D0D0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info-footer p {
+  padding: 10px;
+  font-size: 17px;
+}
+
+.contact-info-footer span {
+  font-size: 20px;
+  font-weight: bold;
 }
