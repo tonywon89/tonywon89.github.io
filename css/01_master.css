@@ -185,8 +185,10 @@ section h2.color-background {
 }
 
 .skills > ul li {
-  padding: 20px;
+  width: 75px;
+  padding: 10px;
   font-size: 20px;
+  text-align: center;
 }
 
 .contact-info-footer {
@@ -201,5 +203,13 @@ section h2.color-background {
 
 .contact-info-footer span {
   font-size: 20px;
+  font-weight: bold;
+}
+
+.skills li.text-only-skill {
+  font-size: 25px;
+  padding: 0;
+  padding-bottom: 10px;
+  padding-right: 20px;
   font-weight: bold;
 }
