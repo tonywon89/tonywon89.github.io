@@ -20,7 +20,7 @@ header.color-background {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url("../background-img.jpeg");
+  background-image: url("../img/background-img.jpeg");
   background-size: cover;
 }
 
@@ -132,10 +132,9 @@ section h2.color-background {
   width: 80%;
   border: 1px solid black;
   display: flex;
-  /*align-items: center;*/
   transition: 0.4s all;
   position: relative;
-  background-image: url("../fresh_snow.png");
+  background-image: url("../img/fresh_snow.png");
 }
 
 .portfolio-item h3 {
@@ -167,7 +166,7 @@ section h2.color-background {
 .portfolio-item .screenshot {
   margin: 30px;
   padding: 10px;
-  background-color: gray;
+  d-color: gray;
   width: 200px;
   object-fit: contain;
 }
@@ -191,7 +190,6 @@ section h2.color-background {
 }
 
 .contact-info-footer {
-  /*background-color: #D6D0D0;*/
   display: flex;
   justify-content: center;
 }
