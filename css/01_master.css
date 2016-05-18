@@ -91,6 +91,7 @@ section h2.color-background {
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .profile-img {
