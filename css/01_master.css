@@ -133,7 +133,7 @@ section h2.color-background {
   width: 80%;
   border: 1px solid black;
   display: flex;
-  transition: 0.4s all;
+  transition: 0.2s all;
   position: relative;
   background-image: url("../img/fresh_snow.png");
 }
@@ -177,7 +177,7 @@ section h2.color-background {
 }
 
 .portfolio > div:hover {
-  transform: scale(1.05, 1.05);
+  transform: scale(1.01, 1.01);
 }
 
 .skills > ul {
