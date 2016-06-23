@@ -1,143 +1,283 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/00_reset.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/01_master.css" media="screen" title="no title" charset="utf-8">
-    <title>Tony Won</title>
-  </head>
-  <body>
-    <header class="color-background">
-      <div>
-        <h1>TONY WON</h1>
-        <h3>Software Developer</h3>
-        <h4> <a href="https://github.com/tonywon89/" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/tonywon" target="_blank">LinkedIn</a> | <a href="https://github.com/tonywon89/tonywon89.github.io/blob/master/Tony_Won_Resume.pdf" target="_blank">Resume</a></h4>
-      </div>
-      <div class="contact-info">
-        <h3><span>LOCATION : </span> San Francisco, CA</h3>
-        <h3><span>E-MAIL : </span> tonywon89@gmail.com</h3>
-        <h3><span>CELL : </span> 415-889-7752</h3>
-      </div>
-    </header>
-    <section >
-      <h2 class="color-background">ABOUT MYSELF</h2>
-      <div class="about-content clearfix" >
-        <div class="profile-img">
-          <img src="img/profile-img4.jpg" />
-        </div>
-        <div class="about-text">
-          <p>
-            My name is Tony Won, and I am a software developer. But I didn't start out that way.
-            In fact, I spent most of my life pursuing veterinary medicine.
-            I even got into Cornell University, the top veterinary school at the time.
-            I attended for two years (out of four) before I changed paths.
-            Since then, I have never looked back, and couldn't be happier.
-          </p>
-          <br/>
-          <p>
-            I first discovered the joy of creating through playing Minecraft,
-            where I spent hours building grand castles and advanced mining mechanisms.
-            After that, I wanted to transform this new found passion into something more practical,
-            so I spent a summer learning computer programming through various online courses,
-            such as Codecademy and Standford's CS106A: Programming Methodology. I built my own Android app in a week,
-            and several months after that, I built my first full-stack web application using Ruby on Rails,
-            <a href="http://worktorelax.herokuapp.com/" target="_blank">WorkToRelax</a>. I have been hooked to coding since.
-          </p>
-          <br />
-          <p>
-            To turn coding into a career, I attended App Academy, a 1000-hour intensive web development course,
-            where I learned not only about core concepts such as object-oriented programming and the underlying mechanism of Rails's ActiveRecord,
-            but also how to write clean code and implement neat data structures (trees, hash maps, LRU caches) using industry best practices.
-            At the end of each day, I would be amazed at how much I learned and improved my skills as a programmer, and how excited I was to do even better the next day.
-          </p>
-          <br />
-          <p>
-            I am looking forward to working in a company where I can contribute my skills to help push the company to greater heights, as well as
-            expand my skill set as a developer.
-          </p>
-        <div>
-      </div>
-    </section>
-    <section>
-      <h2 class="color-background">PROJECTS</h2>
-      <div class="portfolio">
-        <div class="portfolio-item">
-          <div class="screenshot"><img src="img/FeedMyCuriosity.png" /></div>
-          <div>
-            <h3>Feed My Curiosity</h3>
-            <h5>Rails, React.js, Flux</h5>
-            <footer>
-              <a href="http://www.feedmycuriosity.site/" target="_blank">Live</a> | <a href="https://github.com/tonywon89/feed_my_curiosity" target="_blank">Github</a>
-            </footer>
-            <ul>
-              <li>-A site to store, organize, and read articles from feeds, inspired by Feedly</li>
-              <li>-A full stack single-page web application</li>
-              <li>-Fetches and parses most recent articles from feed url</li>
-              <li>-Custom authentication that utilizes the BCrypt gem for encryption</li>
+	<head>
+		<title>Tony Won</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-            </ul>
-          </div>
-        </div>
-        <div class="portfolio-item">
-          <div class="screenshot"><img src="img/BallerCoaster.png" /></div>
-          <div>
-            <h3>Baller Coaster</h3>
-            <h5>Javascript, JQuery</h5>
-            <footer>
-              <a href="http://tonywon89.github.io/BallerCoaster/" target="_blank">Live</a> | <a href="https://github.com/tonywon89/BallerCoaster" target="_blank">Github</a>
-            </footer>
-            <ul>
-              <li>-A visual  customizable theme park, complete with portals</li>
-              <li>-Uses Javascript, jQuery, and HTML5 Canvas to generate dynamic structures</li>
-              <li>-Simulates physical laws such as gravity and acceleration on an inclined slope</li>
-            </ul>
-          </div>
-        </div>
-        <div class="portfolio-item">
-          <div class="screenshot"><img src="img/RubyOnTracks.png" /></div>
-          <div>
-            <h3>Ruby on Tracks</h3>
-            <h5>Ruby, Rack Middleware</h5>
-            <footer><a href="https://github.com/tonywon89/ruby_on_tracks" target="_blank">Github</a></footer>
-            <ul>
-              <li>-An MVC web server framework inspired by the functionality of Ruby on Rails</li>
-              <li>-Implements Rail’s controllers and routes by utilizing meta-programming</li>
-              <li>-Built based on a firm understanding of web request and response cycles</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <h2 class="color-background">SKILLS</h2>
-      <div class="skills">
-        <ul>
-          <li><img src="img/skill_logos/ruby.png" /><p>Ruby</p></li>
-          <li><img src="img/skill_logos/rails.png" /><p>Ruby on Rails</p></li>
-          <li><img src="img/skill_logos/javascript.png"/><p>Javscript</p></li>
-          <li><img src="img/skill_logos/react.png" /><p>React.js</p></li>
-          <li><img src="img/skill_logos/jquery.png" /><p>JQuery</p></li>
-          <li><img src="img/skill_logos/HTML5.png" /><p>HTML</p></li>
-          <li><img src="img/skill_logos/css.png" /><p>CSS</p></li>
-          <li><img src="img/skill_logos/git.png" /><p>Git</p></li>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-        </ul>
-        <ul >
-          <li class="text-only-skill">SQL</li>
-          <li class="text-only-skill">Flux</li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h2 class="color-background">CONTACT INFO</h2>
-      <div class="contact-info-footer">
-        <p> <span> Cell : </span> (415) 889-7752</p>
-        <p> <span> Email :</span> <a href="mailto:tonywon89@gmail.com"> tonywon89@gmail.com </a> </p>
-        <p> <span> Github :</span> <a href="https://github.com/tonywon89" target="_blank"> https://github.com/tonywon89 </a></p>
-        <p> <span> LinkedIn :</span> <a href="https://www.linkedin.com/in/tonywon" target="_blank"> https://www.linkedin.com/in/tonywon </a> </p>
+		<!-- Home -->
+			<div class="wrapper style1 first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u 12u(mobile)">
+							<span class="image fit"><img src="images/profile-img4.jpg" alt="" /></span>
+						</div>
+						<div class="8u 12u(mobile)">
+							<header>
+								<h1>Hi. I'm <strong>Tony Won</strong>.</h1>
+							</header>
+							<p>I am a <strong>Software Engineer</strong>, and I love what I do. </p>
+							<a href="#work" class="button big scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</article>
+			</div>
 
-      </div>
-    </section>
-  </body>
+		<!-- Work -->
+			<div class="wrapper style2">
+				<article id="work">
+					<header>
+						<h2>Here's some the stuff I strive to achieve.</h2>
+						<p>This is only the tip of the iceberg</p>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u 12u(mobile)">
+								<section class="box style1">
+									<span class="icon featured fa-cogs"></span>
+									<h3>Creating Useful and Awesome Products</h3>
+									<p>Transforming an idea into a working product is so satisfying</p>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="box style1">
+									<span class="icon featured fa-code"></span>
+									<h3>Writing Clean and Beuatiful Code</h3>
+									<p>Refactoring and deleting code makes me very happy</p>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="box style1">
+									<span class="icon featured fa-cloud-download"></span>
+									<h3>Learning New Technologies</h3>
+									<p>Growing my toolbox and skills is always a priority</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</article>
+				<footer>
+					<a href="#skills" class="button big scrolly">See my skills</a>
+				</footer>
+			</div>
+			<!-- Skills -->
+			<div class="wrapper style1">
+				<article class="container" id="skills">
+					<article id="work">
+						<header>
+							<h2>Here is my current skillset.</h2>
+							<p>And I'm always learning more</p>
+						</header>
+						<div class="container">
+							<div class="row">
+								<div class="skills">
+									<ul>
+										<li><img src="images/skill_logos/ruby.png" /><p>Ruby</p></li>
+										<li><img src="images/skill_logos/rails.png" /><p>Ruby on Rails</p></li>
+										<li><img src="images/skill_logos/javascript.png"/><p>Javscript</p></li>
+										<li><img src="images/skill_logos/react.png" /><p>React.js</p></li>
+										<li><img src="images/skill_logos/jquery.png" /><p>JQuery</p></li>
+										<li><img src="images/skill_logos/HTML5.png" /><p>HTML</p></li>
+										<li><img src="images/skill_logos/css.png" /><p>CSS</p></li>
+										<li><img src="images/skill_logos/git.png" /><p>Git</p></li>
+										<li><img src="images/skill_logos/Postgresql_elephant.svg"/><p>PostgreSQL</p></li>
+										<li><img src="images/skill_logos/flux-logo.png" /><p>Flux</p></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<footer>
+							<p>Curious about what I have made?</p>
+							<a href="#portfolio" class="button big scrolly">Explore my projects</a>
+						</footer>
+				</article>
+			</div>
+
+		<!-- Portfolio -->
+			<div class="wrapper style3">
+				<article id="portfolio">
+					<header>
+						<h2>Here’s some stuff I made recently.</h2>
+						<p>Time just flew by as I worked on these projects, and I can't wait to do more</p>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="http://www.feedmycuriosity.site/" target="_blank" class="image featured"><img src="images/FeedMyCuriosity.png" alt="" /></a>
+									<h3><a href="http://www.feedmycuriosity.site/" target="_blank">Feed My Curiosity</a></h3>
+									<p>A site to store, organize, and read articles from feeds, inspired by Feedly</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="http://tonywon89.github.io/BallerCoaster/" target="_blank" class="image featured"><img src="images/BallerCoaster.png" alt="" /></a>
+									<h3><a href="http://tonywon89.github.io/BallerCoaster/" target="_blank">Baller Coaster</a></h3>
+									<p>A visual  customizable theme park, complete with portals</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="https://github.com/tonywon89/ruby_on_tracks" target="_blank" class="image featured"><img src="images/RubyOnTracks.png" alt="" /></a>
+									<h3><a href="https://github.com/tonywon89/ruby_on_tracks" target="_blank">Ruby on Tracks</a></h3>
+									<p>An MVC web server framework inspired by the functionality of Ruby on Rails</p>
+								</article>
+							</div>
+						</div>
+						<!-- <div class="row">
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<h3><a href="#">Tempus dolore</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+									<h3><a href="#">Feugiat aliquam</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+									<h3><a href="#">Sed amet ornare</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+						</div> -->
+					</div>
+					<footer>
+						<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p> -->
+						<a href="#contact" class="button big scrolly">Want to chat?</a>
+					</footer>
+				</article>
+			</div>
+
+		<!-- Contact -->
+			<div class="wrapper style4">
+				<article id="contact" class="container 75%">
+					<header>
+						<h2>Get in touch with me!</h2>
+						<p>I promise, I won't bite.</p>
+
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<ul class="contact-info">
+									<!-- <li><i class="contact-icon fa fa-home"></i>1715 42nd Ave, San Francisco, CA 94122</li> -->
+									<li><i class="contact-icon fa fa-phone"></i>(415) 889 - 7752</li>
+									<li><i class="contact-icon fa fa-envelope"></i>tonywon89@gmail.com</li>
+								</ul>
+								<hr />
+								<h3>Find me on ...</h3>
+								<ul class="social">
+									<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
+									<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+									<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+									<li><a href="https://www.linkedin.com/in/tonywon/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+									<li><a href="http://tonywon89.tumblr.com/" target="_blank" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+									<!-- <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li> -->
+									<li><a href="https://github.com/tonywon89/" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+							</div>
+						</div>
+						<!-- <div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="6u 12u(mobile)">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row 200%">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" /></li>
+													<li><input type="reset" value="Clear Form" class="alt" /></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div> -->
+						<!-- <div class="row">
+							<div class="12u">
+								<hr />
+								<h3>Find me on ...</h3>
+								<ul class="social">
+									<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
+									<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+									<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+									<!-- <li><a href="https://www.linkedin.com/in/tonywon/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+									<li><a href="http://tonywon89.tumblr.com/" target="_blank" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+									<!-- <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li> -->
+									<!-- <li><a href="https://github.com/tonywon89/" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+									<!--
+									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
+									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
+									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
+									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
+									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
+									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
+									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
+									-->
+								<!-- </ul>
+								<hr />
+							</div>
+						</div> -->
+					</div>
+				</article>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
